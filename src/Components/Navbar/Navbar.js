@@ -42,9 +42,9 @@ const menuItem = (
 );
 
     return (
-      <div className="">
-        <div class=" navbar bg-base-100">
-          <div class="navbar-start">
+      <div className="bg-base-100">
+        <div class=" navbar  container mx-auto">
+          <div class="navbar-start ">
             <div class="dropdown">
               <label tabindex="0" class="btn btn-ghost lg:hidden">
                 <svg
