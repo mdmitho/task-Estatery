@@ -6,7 +6,7 @@ import Home from './Components/Home/Home';
 
 function App() {
   return (
-    <div className="App">
+    <div className=" bg-secondary App">
       <Navbar></Navbar>
       <Routes>
         <Route path="/" element={<Home />} />

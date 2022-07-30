@@ -5,7 +5,7 @@ const Navbar = () => {
 const menuItem = (
   <>
     <li>
-      <a className="font-bold m-2">Rent</a>
+      <a className="font-bold m-2 ">Rent</a>
     </li>
     <li>
       <a className="font-bold m-2">Buy</a>
@@ -42,8 +42,8 @@ const menuItem = (
 );
 
     return (
-      <div className="container mx-auto">
-        <div class="navbar bg-base-100">
+      <div className="">
+        <div class=" navbar bg-base-100">
           <div class="navbar-start">
             <div class="dropdown">
               <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -64,7 +64,7 @@ const menuItem = (
               </label>
               <ul
                 tabindex="0"
-                class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+                class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 "
               >
                 {menuItem}
               </ul>
